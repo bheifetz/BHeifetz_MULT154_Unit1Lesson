@@ -146,7 +146,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60e3b441c740f2d41b00112ab417cf6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoints: []
+  spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!54 &3895057711493240181
 Rigidbody:
   m_ObjectHideFlags: 0
