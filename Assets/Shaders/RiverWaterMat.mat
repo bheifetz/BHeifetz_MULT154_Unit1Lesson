@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RiverWaterMat
+  m_Shader: {fileID: -6465566751694194690, guid: b08fe1334f53aa54488e741c82417e10, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CausticsPower: 2.46
+    - _CausticsSpeed: 0.1
+    - _ClampMax: 1
+    - _ClampMin: 0
+    - _NoiseScale: 7.94
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RiverGrainDetail: 250
+    - _Transparency: 0.45
+    - _Wave1Frequency: 0.96
+    - _Wave1Height: 2
+    - _Wave1Speed: 2.66
+    - _Wave2Frequency: 2
+    - _Wave2Height: 1
+    - _Wave2Speed: 0.1
+    - _WaveFrequency: 2
+    - _WaveFrequencyX: 2
+    - _WaveFrequencyZ: 2
+    - _WaveMagnitude: 5
+    m_Colors:
+    - _BaseColor: {r: 0, g: 0.41277716, b: 0.8113207, a: 1}
+    - _HighlightColor: {r: 0, g: 0.5361595, b: 1, a: 0}
+    - _HighlightEdgeColor: {r: 0.58962256, g: 0.8280559, b: 1, a: 0}
+    - _Wave1Angle: {r: 2.24, g: 1.03, b: 0, a: 0}
+    - _Wave1Angle_1: {r: 1, g: 1, b: 0, a: 0}
+    - _Wave2Angle: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &9180822304445528964
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
